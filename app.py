@@ -1,4 +1,4 @@
-にfrom dotenv import load_dotenv
+from dotenv import load_dotenv
 import streamlit as st
 from langchain.schema import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
