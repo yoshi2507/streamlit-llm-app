@@ -10,7 +10,7 @@ load_dotenv()
 llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
 
 # Streamlitアプリのタイトル
-st.title("専門家の回答コーナー")
+st.title("スペシャリストの回答コーナー")
 
 st.write("##### 専門家A: 人事部スペシャリストAI")
 st.write("入力フォームに人事や社内教育に関する質問にスペシャリストとして回答をします。")
